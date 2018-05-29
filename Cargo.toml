@@ -1,0 +1,6 @@
+[package]
+name = "mmu"
+version = "0.1.0"
+authors = ["Ben Hadfield <benjohnhadfield@gmail.com>"]
+
+[dependencies]
