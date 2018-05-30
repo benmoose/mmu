@@ -19,16 +19,18 @@ impl Memory {
 }
 
 // TLB params
-struct TLB {
-    associativity: u8,
-    set_count: u8,
+// associativity = e
+// set count = s
+pub struct TLB {
+    e: u8,
+    s: u8,
 }
 
 impl TLB {
-    pub fn new(associativity: u8, set_count: u8) -> TLB {
+    pub fn new(e: u8, s: u8) -> TLB {
         TLB {
-            associativity: associativity,
-            set_count: set_count,
+            e: e,
+            s: s,
         }
     }
 }
