@@ -1,5 +1,6 @@
-mod hardware;
-mod address;
+extern crate mmu;
+
+use mmu::{hardware, address};
 
 fn main() {
     // create memory model
